@@ -9,8 +9,8 @@ function prerequisites() {
 }
 
 function install() {
-  curl -s https://raw.githubusercontent.com/koolwithk/kubernetes-kn-kx-bash/main/kn.sh -o /usr/local/bin/kn
-  curl -s https://raw.githubusercontent.com/koolwithk/kubernetes-kn-kx-bash/main/kx.sh -o /usr/local/bin/kx
+  curl -s https://raw.githubusercontent.com/gaganyaan3/kubernetes-kn-kx-bash/main/kn.sh -o /usr/local/bin/kn
+  curl -s https://raw.githubusercontent.com/gaganyaan3/kubernetes-kn-kx-bash/main/kx.sh -o /usr/local/bin/kx
   chmod +x /usr/local/bin/kn /usr/local/bin/kx
   echo "Installed kn and kx at /usr/local/bin/kn /usr/local/bin/kx"
 }
